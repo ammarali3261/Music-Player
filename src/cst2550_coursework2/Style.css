@@ -1,0 +1,228 @@
+/*CSS class to style the GUI
+It contains all the styling that has been
+done in the GUI
+*/
+
+/*code to style the buttons*/
+.button{
+    -fx-background-color: transparent;
+    -fx-text-fill: #00cc99;
+    -fx-border-color: #00cc99;
+    -fx-border-radius: 7;
+    
+}
+
+/*code to style the buttons when they are hovered upon*/
+.button:hover {
+    -fx-background-color: #00cc99;
+    -fx-text-fill: black;
+    -fx-border-color: #00cc99;
+    /*-fx-border-width: 3;*/
+    -fx-border-radius: 10;
+    -fx-cursor:hand;
+}
+
+/*code to style the search bar*/
+#searchBar {
+    -fx-text-fill: #00cc99;
+    -fx-background-color: #262222 ;
+    -fx-border-color: #00cc99;
+    -fx-border-radius: 10;
+}
+
+/*code to style the control pane*/
+#controlPane {
+    -fx-border-color: #00cc99;
+    -fx-border-radius: 20;
+    -fx-border-width: 0
+}
+
+/*code to style the playlist text field*/
+#playlistTF {
+    -fx-text-fill: #00cc99;
+    -fx-background-color: #262222 ;
+    -fx-border-color: #00cc99;
+}
+
+/*code to style the slider track*/
+.slider .track {
+     -fx-control-inner-background: #00cc99;
+}
+
+/*code to style the slider thumb*/
+.slider .thumb {
+    -fx-background-color: #262222;
+    -fx-border-color: #00cc99;
+    -fx-border-radius: 50;
+    -fx-border-width: 3;
+}
+
+/*code to style the labels*/
+.label {
+        -fx-text-fill: #00cc99;
+}
+
+/*code to style the table view*/
+.table-view{
+   -fx-background-color: transparent;
+   -fx-border-color: #00cc99;
+   -fx-border-radius: 5;
+}
+
+/*code to style the table view cells*/
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+/*code to style the table view row cells*/
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #262222;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+    -fx-border-radius: 50;
+}
+
+/*code to style the table view when it is focused*/
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+/*code to style the table view column header background*/
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#131313 50%, #00cc99 50%);
+}
+
+/*code to style the table view column header label*/
+.table-view .column-header-background .label{
+    -fx-background-color: #00cc99;
+    -fx-text-fill: #262222;
+    
+}
+
+/*code to style the table view column header*/
+.table-view .column-header {
+    -fx-background-color: #00cc99;
+    -fx-border-radius: 5;
+    -fx-border-color: white;
+}
+
+/*code to style the table view selected row*/
+.table-row-cell:selected {
+    -fx-background-color: #00cc99;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+/*code to style the table view scroll bar*/
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background, 
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: grey;
+    -fx-fill: #00cc99;
+    -fx-border-color: #262222;
+}
+
+/*code to style the table view scroll bar*/
+.table-view > .virtual-flow > .scroll-bar > .increment-button, 
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 100;
+}
+
+/*code to style the table view scroll bar*/
+.table-view .scroll-bar:vertical .thumb{
+    -fx-background-color: #00cc99;
+    -fx-border-color: #00cc99;
+    -fx-border-radius: 7;
+    
+}
+
+/*code to style the table view*/
+.table-view .filler {
+    -fx-background-color: #00cc99;
+}
+
+/*code to style the dialog pane*/
+ .dialog-pane{
+  -fx-border-color:black;
+  -fx-border-width:2.0px;
+ }
+
+/*styling the bar where the buttons are located*/
+.dialog-pane > .button-bar > .container {
+  -fx-background-color:#262222;
+}
+
+/*code to style the dialog pane content label*/
+.dialog-pane > .content.label {
+   -fx-padding: 0.5em 0.5em 0.5em 0.5em;
+   -fx-background-color: yellow;
+   -fx-text-fill:#00cc99;
+   -fx-font-size:15.0px;
+}
+
+/*code to style the dialog pane header*/
+.dialog-pane:header .header-panel {
+  -fx-background-color: #262222;
+}
+
+/*code to style the dialog pane header panel*/
+.dialog-pane:header .header-panel .label{
+  -fx-background-color: #262222;
+  -fx-background-radius:10px;
+  -fx-text-fill:#00cc99;
+  -fx-font-size:15.0px;
+}
+
+
+/*code to style the dialog pane buttons*/
+.dialog-pane .button{
+   -fx-background-color:#00cc99;
+   -fx-text-fill:#262222;
+   -fx-wrap-text: true;
+   /*-fx-effect: dropshadow( three-pass-box, yellow, 10.0, 0.0, 0.0, 0.0);*/
+   -fx-cursor:hand;
+ }
+
+ /*code to style the dialog pane buttons when they are hovered*/
+.dialog-pane .button:hover{     
+  -fx-background-color:white;
+  -fx-text-fill:black;
+  -fx-font-weight:bold; 
+ }
+
+ /*code to style the dialog pane */
+ .dialog-pane {
+    -fx-background-color: #262222;
+}
+
+/*code to style the dialog pane labels*/
+.dialog-pane .label {
+    -fx-text-fill: #00cc99;
+}
+
+/*code to style the dialog pane header*/
+.dialog-pane:header .header-panel {
+    -fx-background-color: #262222;
+}
+
+/*code to style the dialog pane header panel*/
+.dialog-pane:header .header-panel .label {
+    -fx-font-style: italic;
+    -fx-font-size: 2em;
+}
+
+/*code to style the new song pane*/
+#newSongPane {
+    -fx-background-color: #262222;
+}
+
+/*code to style the text fields*/
+.text-field {
+    -fx-background-color: #262222;
+    -fx-border-color: #00cc99;
+    -fx-text-fill: #00cc99;
+    -fx-border-radius: 5;
+}
